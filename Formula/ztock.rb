@@ -10,6 +10,7 @@ class Ztock < Formula
 
   def install
     ENV["GOPATH"] = buildpath
+    ENV["GO111MODULE"] = "on"
     path = buildpath/"src/github.com/ztock/ztock"
     system "go", "get", "-u", "github.com/ztock/ztock"
     cd path do
