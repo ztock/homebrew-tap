@@ -1,2 +1,2 @@
-# homebrew-brew
+# homebrew-ztock
 Homebrew formula.
