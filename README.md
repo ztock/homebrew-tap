@@ -1,2 +1,2 @@
-# homebrew-ztock
+# homebrew-tap
 Homebrew formula.
