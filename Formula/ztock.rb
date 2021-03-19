@@ -5,6 +5,7 @@ class Ztock < Formula
   sha256 "d34566fa5e840c363ac8b1a2058b2213fcecbcef3c84fdfec625a39405d3da4a"
   license "MIT"
 
+  depends_on "go" => :build
   bottle :unneeded
 
   def install
